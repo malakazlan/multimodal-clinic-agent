@@ -1,0 +1,65 @@
+2025-08-12 23:31:37 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:31:57 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:33:07 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:37:03 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:40:24 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:40:37 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:40:45 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:41:26 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:47:20 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:54:20 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-12 23:54:20 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-12 23:54:20 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: '>' not supported between instances of 'RiskLevel' and 'RiskLevel'
+2025-08-12 23:54:35 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: transcription failed for wav audio - "'error'"
+2025-08-12 23:54:35 | ERROR    | app.api.voice:transcribe_audio:143 | Transcription failed: "'error'"
+2025-08-12 23:57:11 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-12 23:57:11 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-12 23:57:11 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: '>' not supported between instances of 'RiskLevel' and 'RiskLevel'
+2025-08-12 23:59:00 | ERROR    | rag.rag_pipeline:query:125 | RAG query failed: "'error'"
+2025-08-12 23:59:00 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: "'error'"
+2025-08-12 23:59:05 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: transcription failed for wav audio - "'error'"
+2025-08-12 23:59:05 | ERROR    | app.api.voice:transcribe_audio:143 | Transcription failed: "'error'"
+2025-08-13 00:08:07 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:07 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:21 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:21 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:22 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - '"detail"'
+2025-08-13 00:08:22 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: '"detail"'
+2025-08-13 00:08:38 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:38 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:39 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - 400: Text too long. Max length: 500 characters
+2025-08-13 00:08:39 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: 400: Text too long. Max length: 500 characters
+2025-08-13 00:12:44 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:12:44 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:12:51 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:12:51 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:12:52 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - '"detail"'
+2025-08-13 00:12:52 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: '"detail"'
+2025-08-13 00:13:12 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:13:12 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:13:13 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - '"detail"'
+2025-08-13 00:13:13 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: '"detail"'
+2025-08-13 00:29:30 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:29:30 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:29:40 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:29:40 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:31:05 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:31:05 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:37:17 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:37:17 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:57:57 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:57:57 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:57:57 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - '"detail"'
+2025-08-13 01:57:57 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: '"detail"'
+2025-08-13 01:58:13 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:13 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:13 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:13 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:33 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:33 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:33 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:33 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:58 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:58 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:58 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:58 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: 400: Text too long. Max length: 500 characters

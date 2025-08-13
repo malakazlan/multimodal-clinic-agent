@@ -1,0 +1,554 @@
+2025-08-12 23:20:56 | INFO     | main:lifespan:41 | Application startup complete
+2025-08-12 23:21:22 | INFO     | main:lifespan:46 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:21:34 | INFO     | main:lifespan:41 | Application startup complete
+2025-08-12 23:21:34 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:21:34 | INFO     | app.middleware:__call__:47 | Response: GET / (0.124s)
+2025-08-12 23:21:34 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-12 23:21:34 | INFO     | app.middleware:__call__:33 | Request: GET /app.js
+2025-08-12 23:21:34 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.076s)
+2025-08-12 23:21:34 | INFO     | app.middleware:__call__:47 | Response: GET /app.js (0.050s)
+2025-08-12 23:21:34 | INFO     | app.middleware:__call__:33 | Request: GET /favicon.ico
+2025-08-12 23:21:34 | INFO     | app.middleware:__call__:47 | Response: GET /favicon.ico (0.034s)
+2025-08-12 23:31:11 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:31:11 | INFO     | app.middleware:__call__:47 | Response: GET / (0.018s)
+2025-08-12 23:31:11 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-12 23:31:11 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-12 23:31:11 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.012s)
+2025-08-12 23:31:11 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.036s)
+2025-08-12 23:31:24 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:31:24 | INFO     | app.middleware:__call__:47 | Response: GET / (0.019s)
+2025-08-12 23:31:24 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-12 23:31:24 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-12 23:31:24 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.017s)
+2025-08-12 23:31:24 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.018s)
+2025-08-12 23:31:37 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:31:37 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:31:38 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.019s)
+2025-08-12 23:31:57 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:31:57 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:31:57 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.015s)
+2025-08-12 23:33:07 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:33:07 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:33:07 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.075s)
+2025-08-12 23:34:34 | INFO     | main:lifespan:41 | Application startup complete
+2025-08-12 23:34:34 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:34:34 | INFO     | app.middleware:__call__:47 | Response: GET / (0.125s)
+2025-08-12 23:34:34 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-12 23:34:34 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-12 23:34:34 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.018s)
+2025-08-12 23:34:34 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.022s)
+2025-08-12 23:34:50 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/transcribe
+2025-08-12 23:34:50 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/transcribe (0.011s)
+2025-08-12 23:36:43 | INFO     | main:lifespan:41 | Application startup complete
+2025-08-12 23:36:56 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:36:56 | INFO     | app.middleware:__call__:47 | Response: GET / (0.183s)
+2025-08-12 23:36:56 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-12 23:36:56 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-12 23:36:56 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.024s)
+2025-08-12 23:36:56 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.062s)
+2025-08-12 23:37:03 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:37:03 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:37:03 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.019s)
+2025-08-12 23:40:18 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:40:18 | INFO     | app.middleware:__call__:47 | Response: GET / (0.061s)
+2025-08-12 23:40:18 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-12 23:40:18 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-12 23:40:18 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.019s)
+2025-08-12 23:40:18 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.072s)
+2025-08-12 23:40:24 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:40:24 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:40:24 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.016s)
+2025-08-12 23:40:37 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:40:37 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:40:37 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.023s)
+2025-08-12 23:40:45 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:40:45 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:40:45 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.022s)
+2025-08-12 23:40:53 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/transcribe
+2025-08-12 23:40:53 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/transcribe (0.015s)
+2025-08-12 23:41:18 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:41:18 | INFO     | app.middleware:__call__:47 | Response: GET / (0.010s)
+2025-08-12 23:41:18 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-12 23:41:18 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-12 23:41:18 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.008s)
+2025-08-12 23:41:18 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.031s)
+2025-08-12 23:41:26 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:41:26 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:41:26 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.020s)
+2025-08-12 23:42:00 | INFO     | main:lifespan:41 | Application startup complete
+2025-08-12 23:42:00 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:42:00 | INFO     | app.middleware:__call__:47 | Response: GET / (0.140s)
+2025-08-12 23:42:01 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-12 23:42:01 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-12 23:42:01 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.046s)
+2025-08-12 23:42:01 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.058s)
+2025-08-12 23:44:41 | INFO     | main:lifespan:46 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:44:45 | INFO     | main:lifespan:41 | Application startup complete
+2025-08-12 23:44:48 | INFO     | main:lifespan:41 | Application startup complete
+2025-08-12 23:45:26 | INFO     | main:lifespan:46 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:45:29 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-12 23:45:32 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-12 23:47:16 | INFO     | app.middleware:__call__:33 | Request: GET /health
+2025-08-12 23:47:16 | INFO     | app.middleware:__call__:47 | Response: GET /health (0.006s)
+2025-08-12 23:47:18 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:47:18 | INFO     | app.middleware:__call__:47 | Response: GET / (0.101s)
+2025-08-12 23:47:20 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:47:20 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: 'Core' object has no attribute 'now'
+2025-08-12 23:47:20 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.012s)
+2025-08-12 23:47:22 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/transcribe
+2025-08-12 23:47:22 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/transcribe (0.009s)
+2025-08-12 23:52:11 | INFO     | main:lifespan:47 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:52:13 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-12 23:52:35 | INFO     | main:lifespan:47 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:52:38 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-12 23:52:54 | INFO     | main:lifespan:47 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:52:58 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-12 23:53:00 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-12 23:54:09 | INFO     | app.middleware:__call__:33 | Request: GET /health
+2025-08-12 23:54:09 | INFO     | app.middleware:__call__:47 | Response: GET /health (0.011s)
+2025-08-12 23:54:11 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:54:11 | INFO     | app.middleware:__call__:47 | Response: GET / (0.091s)
+2025-08-12 23:54:13 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:54:13 | INFO     | utils.logger:log_user_interaction:124 | User interaction: test-user - send_message
+2025-08-12 23:54:13 | DEBUG    | safety.healthcare_filter:_log_safety_check:327 | Content safety check passed: low risk
+2025-08-12 23:54:13 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'Hello, how are you?' with top_k=5, threshold=0.7
+2025-08-12 23:54:16 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 19
+2025-08-12 23:54:16 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-12 23:54:16 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 3.544s
+2025-08-12 23:54:16 | INFO     | utils.logger:log_rag_query:139 | RAG query: Hello, how are you?... returned 0 results in 3555.35ms
+2025-08-12 23:54:16 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-12 23:54:20 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 121 characters
+2025-08-12 23:54:20 | DEBUG    | safety.healthcare_filter:_log_safety_check:327 | Content safety check passed: low risk
+2025-08-12 23:54:20 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-12 23:54:20 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-12 23:54:20 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 7.156s
+2025-08-12 23:54:20 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: '>' not supported between instances of 'RiskLevel' and 'RiskLevel'
+2025-08-12 23:54:20 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (7.182s)
+2025-08-12 23:54:22 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/transcribe
+2025-08-12 23:54:33 | WARNING  | stt.whisper_client:_get_audio_duration:208 | Failed to get audio duration: 
+2025-08-12 23:54:33 | DEBUG    | stt.whisper_client:transcribe:62 | Transcribing audio file: uploads\temp_1755024862_test.wav (duration: 0.00s)
+2025-08-12 23:54:35 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: transcription failed for wav audio - "'error'"
+2025-08-12 23:54:35 | ERROR    | app.api.voice:transcribe_audio:143 | Transcription failed: "'error'"
+2025-08-12 23:54:35 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/transcribe (12.564s)
+2025-08-12 23:56:57 | INFO     | app.middleware:__call__:33 | Request: GET /health
+2025-08-12 23:56:57 | INFO     | app.middleware:__call__:47 | Response: GET /health (0.032s)
+2025-08-12 23:57:06 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:57:06 | INFO     | utils.logger:log_user_interaction:124 | User interaction: anonymous - send_message
+2025-08-12 23:57:06 | DEBUG    | safety.healthcare_filter:_log_safety_check:327 | Content safety check passed: low risk
+2025-08-12 23:57:06 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'Hello' with top_k=5, threshold=0.7
+2025-08-12 23:57:08 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 5
+2025-08-12 23:57:08 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-12 23:57:08 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.716s
+2025-08-12 23:57:08 | INFO     | utils.logger:log_rag_query:139 | RAG query: Hello... returned 0 results in 2167.20ms
+2025-08-12 23:57:09 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-12 23:57:11 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 62 characters
+2025-08-12 23:57:11 | DEBUG    | safety.healthcare_filter:_log_safety_check:327 | Content safety check passed: low risk
+2025-08-12 23:57:11 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-12 23:57:11 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-12 23:57:11 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 5.107s
+2025-08-12 23:57:11 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: '>' not supported between instances of 'RiskLevel' and 'RiskLevel'
+2025-08-12 23:57:12 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (5.411s)
+2025-08-12 23:57:57 | INFO     | main:lifespan:47 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:58:00 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-12 23:58:35 | INFO     | main:lifespan:47 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:58:40 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-12 23:58:53 | INFO     | app.middleware:__call__:33 | Request: GET /health
+2025-08-12 23:58:53 | INFO     | app.middleware:__call__:47 | Response: GET /health (0.024s)
+2025-08-12 23:58:55 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-12 23:58:56 | INFO     | app.middleware:__call__:47 | Response: GET / (0.177s)
+2025-08-12 23:58:58 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-12 23:58:58 | INFO     | utils.logger:log_user_interaction:124 | User interaction: test-user - send_message
+2025-08-12 23:58:58 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-12 23:58:58 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'Hello, how are you?' with top_k=5, threshold=0.7
+2025-08-12 23:59:00 | ERROR    | rag.rag_pipeline:query:125 | RAG query failed: "'error'"
+2025-08-12 23:59:00 | ERROR    | app.api.chat:send_message:225 | Chat processing failed: "'error'"
+2025-08-12 23:59:00 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (1.981s)
+2025-08-12 23:59:02 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/transcribe
+2025-08-12 23:59:05 | WARNING  | stt.whisper_client:_get_audio_duration:208 | Failed to get audio duration: 
+2025-08-12 23:59:05 | DEBUG    | stt.whisper_client:transcribe:62 | Transcribing audio file: uploads\temp_1755025142_test.wav (duration: 0.00s)
+2025-08-12 23:59:05 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: transcription failed for wav audio - "'error'"
+2025-08-12 23:59:05 | ERROR    | app.api.voice:transcribe_audio:143 | Transcription failed: "'error'"
+2025-08-12 23:59:05 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/transcribe (3.596s)
+2025-08-12 23:59:09 | INFO     | main:lifespan:47 | Shutting down Healthcare Voice AI Assistant...
+2025-08-12 23:59:12 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-13 00:07:45 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-13 00:08:00 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:08:01 | INFO     | app.middleware:__call__:47 | Response: GET / (0.142s)
+2025-08-13 00:08:01 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 00:08:01 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:08:01 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.019s)
+2025-08-13 00:08:01 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.015s)
+2025-08-13 00:08:02 | INFO     | app.middleware:__call__:33 | Request: GET /health
+2025-08-13 00:08:02 | INFO     | app.middleware:__call__:47 | Response: GET /health (0.004s)
+2025-08-13 00:08:02 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:08:02 | INFO     | utils.logger:log_user_interaction:124 | User interaction: anonymous - send_message
+2025-08-13 00:08:03 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:08:03 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'test' with top_k=5, threshold=0.7
+2025-08-13 00:08:04 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 4
+2025-08-13 00:08:04 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:08:04 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.399s
+2025-08-13 00:08:04 | INFO     | utils.logger:log_rag_query:139 | RAG query: test... returned 0 results in 1402.89ms
+2025-08-13 00:08:04 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:08:07 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:08:07 | INFO     | utils.logger:log_user_interaction:124 | User interaction: anonymous - send_message
+2025-08-13 00:08:07 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:08:07 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'hello' with top_k=5, threshold=0.7
+2025-08-13 00:08:07 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 233 characters
+2025-08-13 00:08:07 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:08:07 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:07 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:07 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 5.006s
+2025-08-13 00:08:07 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (5.028s)
+2025-08-13 00:08:07 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 5
+2025-08-13 00:08:07 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:08:07 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 0.728s
+2025-08-13 00:08:07 | INFO     | utils.logger:log_rag_query:139 | RAG query: hello... returned 0 results in 736.69ms
+2025-08-13 00:08:07 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:08:21 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 62 characters
+2025-08-13 00:08:21 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:08:21 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:21 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:21 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 14.699s
+2025-08-13 00:08:21 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (14.726s)
+2025-08-13 00:08:21 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/synthesize
+2025-08-13 00:08:21 | DEBUG    | tts.elevenlabs_client:synthesize:102 | Synthesizing text: 'Hello! How can I assist you with healthcare inform...' with voice elevenlabs
+2025-08-13 00:08:22 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - '"detail"'
+2025-08-13 00:08:22 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: '"detail"'
+2025-08-13 00:08:22 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/synthesize (0.801s)
+2025-08-13 00:08:32 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:08:32 | INFO     | utils.logger:log_user_interaction:124 | User interaction: anonymous - send_message
+2025-08-13 00:08:32 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:08:32 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'i have headache' with top_k=5, threshold=0.7
+2025-08-13 00:08:33 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 15
+2025-08-13 00:08:33 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:08:33 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.542s
+2025-08-13 00:08:33 | INFO     | utils.logger:log_rag_query:139 | RAG query: i have headache... returned 0 results in 1552.43ms
+2025-08-13 00:08:33 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:08:38 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 502 characters
+2025-08-13 00:08:38 | WARNING  | safety.healthcare_filter:_log_safety_check:349 | Content safety check failed: CRITICAL risk - Content contains 51 risk indicators
+2025-08-13 00:08:38 | WARNING  | safety.healthcare_filter:_log_safety_check:353 | High-risk content detected: I'm sorry to hear that you're not feeling well. Headaches can be caused by a variety of factors such...
+2025-08-13 00:08:38 | WARNING  | app.api.chat:send_message:172 | Unsafe AI response detected: RiskLevel.CRITICAL
+2025-08-13 00:08:38 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:38 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:08:38 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 6.741s
+2025-08-13 00:08:38 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (6.751s)
+2025-08-13 00:08:39 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/synthesize
+2025-08-13 00:08:39 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - 400: Text too long. Max length: 500 characters
+2025-08-13 00:08:39 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: 400: Text too long. Max length: 500 characters
+2025-08-13 00:08:39 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/synthesize (0.041s)
+2025-08-13 00:12:28 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-13 00:12:37 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:12:37 | INFO     | app.middleware:__call__:47 | Response: GET / (0.148s)
+2025-08-13 00:12:37 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:12:37 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 00:12:38 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.238s)
+2025-08-13 00:12:38 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.141s)
+2025-08-13 00:12:39 | INFO     | app.middleware:__call__:33 | Request: GET /health
+2025-08-13 00:12:39 | INFO     | app.middleware:__call__:47 | Response: GET /health (0.037s)
+2025-08-13 00:12:39 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:12:39 | INFO     | utils.logger:log_user_interaction:124 | User interaction: anonymous - send_message
+2025-08-13 00:12:39 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:12:39 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'test' with top_k=5, threshold=0.7
+2025-08-13 00:12:41 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 4
+2025-08-13 00:12:41 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:12:41 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.543s
+2025-08-13 00:12:41 | INFO     | utils.logger:log_rag_query:139 | RAG query: test... returned 0 results in 1545.55ms
+2025-08-13 00:12:41 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:12:44 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 226 characters
+2025-08-13 00:12:44 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:12:44 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:12:44 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:12:44 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 5.343s
+2025-08-13 00:12:44 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (5.363s)
+2025-08-13 00:12:48 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:12:48 | INFO     | utils.logger:log_user_interaction:124 | User interaction: anonymous - send_message
+2025-08-13 00:12:48 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:12:48 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'hello' with top_k=5, threshold=0.7
+2025-08-13 00:12:49 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 5
+2025-08-13 00:12:49 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:12:49 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.167s
+2025-08-13 00:12:49 | INFO     | utils.logger:log_rag_query:139 | RAG query: hello... returned 0 results in 1177.06ms
+2025-08-13 00:12:49 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:12:51 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 62 characters
+2025-08-13 00:12:51 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:12:51 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:12:51 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:12:51 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 3.824s
+2025-08-13 00:12:51 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (3.838s)
+2025-08-13 00:12:51 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/synthesize
+2025-08-13 00:12:51 | DEBUG    | tts.elevenlabs_client:synthesize:102 | Synthesizing text: 'Hello! How can I assist you with healthcare inform...' with voice elevenlabs
+2025-08-13 00:12:52 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - '"detail"'
+2025-08-13 00:12:52 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: '"detail"'
+2025-08-13 00:12:52 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/synthesize (0.584s)
+2025-08-13 00:13:02 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/transcribe
+2025-08-13 00:13:05 | WARNING  | stt.whisper_client:_get_audio_duration:208 | Failed to get audio duration: 
+2025-08-13 00:13:05 | DEBUG    | stt.whisper_client:transcribe:62 | Transcribing audio file: uploads\temp_1755025982_recording.wav (duration: 0.00s)
+2025-08-13 00:13:08 | INFO     | stt.whisper_client:transcribe:91 | Transcription completed: 19 characters in 2.591s
+2025-08-13 00:13:08 | INFO     | utils.logger:log_voice_processing:158 | Voice processing: transcription completed for wav audio (0.00s)
+2025-08-13 00:13:08 | WARNING  | app.api.voice:cleanup_temp_file:270 | Failed to cleanup temp file uploads\temp_1755025982_recording.wav: [WinError 32] The process cannot access the file because it is being used by another process: 'uploads\\temp_1755025982_recording.wav'
+2025-08-13 00:13:08 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/transcribe (6.240s)
+2025-08-13 00:13:08 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:13:08 | INFO     | utils.logger:log_user_interaction:124 | User interaction: anonymous - send_message
+2025-08-13 00:13:08 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:13:08 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'Hello, how are you?' with top_k=5, threshold=0.7
+2025-08-13 00:13:10 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 19
+2025-08-13 00:13:10 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:13:10 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.311s
+2025-08-13 00:13:10 | INFO     | utils.logger:log_rag_query:139 | RAG query: Hello, how are you?... returned 0 results in 1316.64ms
+2025-08-13 00:13:10 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:13:12 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 121 characters
+2025-08-13 00:13:12 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:13:12 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:13:12 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:13:12 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 3.730s
+2025-08-13 00:13:12 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (3.745s)
+2025-08-13 00:13:12 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/synthesize
+2025-08-13 00:13:12 | DEBUG    | tts.elevenlabs_client:synthesize:102 | Synthesizing text: 'Hello! As an AI, I don't have feelings, but I'm he...' with voice elevenlabs
+2025-08-13 00:13:13 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - '"detail"'
+2025-08-13 00:13:13 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: '"detail"'
+2025-08-13 00:13:13 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/synthesize (0.662s)
+2025-08-13 00:26:20 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-13 00:26:31 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:26:31 | INFO     | app.middleware:__call__:47 | Response: GET / (0.137s)
+2025-08-13 00:26:31 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 00:26:31 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:26:31 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.025s)
+2025-08-13 00:26:31 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.014s)
+2025-08-13 00:26:36 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:26:36 | INFO     | app.middleware:__call__:47 | Response: GET / (0.015s)
+2025-08-13 00:26:36 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:26:36 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.034s)
+2025-08-13 00:26:37 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:26:37 | INFO     | app.middleware:__call__:47 | Response: GET / (0.014s)
+2025-08-13 00:28:30 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-13 00:28:42 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:28:42 | INFO     | app.middleware:__call__:47 | Response: GET / (0.136s)
+2025-08-13 00:28:42 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:28:42 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 00:28:42 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.010s)
+2025-08-13 00:28:42 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.015s)
+2025-08-13 00:29:16 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:29:16 | INFO     | app.middleware:__call__:47 | Response: GET / (0.029s)
+2025-08-13 00:29:16 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:29:16 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.015s)
+2025-08-13 00:29:20 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:29:20 | INFO     | utils.logger:log_user_interaction:124 | User interaction: user - send_message
+2025-08-13 00:29:20 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:29:20 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'hello' with top_k=5, threshold=0.7
+2025-08-13 00:29:28 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 5
+2025-08-13 00:29:28 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:29:28 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 7.148s
+2025-08-13 00:29:28 | INFO     | utils.logger:log_rag_query:139 | RAG query: hello... returned 0 results in 7153.29ms
+2025-08-13 00:29:28 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:29:30 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 62 characters
+2025-08-13 00:29:30 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:29:30 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:29:30 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:29:30 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 9.254s
+2025-08-13 00:29:30 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (9.274s)
+2025-08-13 00:29:36 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:29:36 | INFO     | utils.logger:log_user_interaction:124 | User interaction: user - send_message
+2025-08-13 00:29:36 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:29:36 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'hello' with top_k=5, threshold=0.7
+2025-08-13 00:29:38 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 5
+2025-08-13 00:29:38 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:29:38 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 2.594s
+2025-08-13 00:29:38 | INFO     | utils.logger:log_rag_query:139 | RAG query: hello... returned 0 results in 2610.52ms
+2025-08-13 00:29:38 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:29:40 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 62 characters
+2025-08-13 00:29:40 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:29:40 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:29:40 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:29:40 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 4.626s
+2025-08-13 00:29:40 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (4.641s)
+2025-08-13 00:30:50 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:30:50 | INFO     | app.middleware:__call__:47 | Response: GET / (0.059s)
+2025-08-13 00:30:50 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:30:50 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 00:30:50 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.034s)
+2025-08-13 00:30:50 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.053s)
+2025-08-13 00:31:01 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:31:01 | INFO     | utils.logger:log_user_interaction:124 | User interaction: user - send_message
+2025-08-13 00:31:01 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:31:01 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'hello' with top_k=5, threshold=0.7
+2025-08-13 00:31:04 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 5
+2025-08-13 00:31:04 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:31:04 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 2.121s
+2025-08-13 00:31:04 | INFO     | utils.logger:log_rag_query:139 | RAG query: hello... returned 0 results in 2132.87ms
+2025-08-13 00:31:04 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:31:05 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 62 characters
+2025-08-13 00:31:05 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:31:05 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:31:05 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:31:05 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 3.523s
+2025-08-13 00:31:05 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (3.544s)
+2025-08-13 00:31:55 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:31:55 | INFO     | app.middleware:__call__:47 | Response: GET / (0.041s)
+2025-08-13 00:31:55 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:31:55 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 00:31:55 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.024s)
+2025-08-13 00:31:55 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.089s)
+2025-08-13 00:37:04 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 00:37:04 | INFO     | app.middleware:__call__:47 | Response: GET / (0.030s)
+2025-08-13 00:37:04 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 00:37:04 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 00:37:04 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.018s)
+2025-08-13 00:37:04 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.042s)
+2025-08-13 00:37:14 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 00:37:14 | INFO     | utils.logger:log_user_interaction:124 | User interaction: user - send_message
+2025-08-13 00:37:14 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:37:14 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'hello' with top_k=5, threshold=0.7
+2025-08-13 00:37:15 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 5
+2025-08-13 00:37:15 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 00:37:15 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.006s
+2025-08-13 00:37:15 | INFO     | utils.logger:log_rag_query:139 | RAG query: hello... returned 0 results in 1014.52ms
+2025-08-13 00:37:15 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 00:37:17 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 62 characters
+2025-08-13 00:37:17 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 00:37:17 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:37:17 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 00:37:17 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 3.186s
+2025-08-13 00:37:17 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (3.207s)
+2025-08-13 01:57:39 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-13 01:57:48 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 01:57:48 | INFO     | app.middleware:__call__:47 | Response: GET / (0.139s)
+2025-08-13 01:57:48 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 01:57:48 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 01:57:48 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.010s)
+2025-08-13 01:57:48 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.022s)
+2025-08-13 01:57:53 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 01:57:53 | INFO     | utils.logger:log_user_interaction:124 | User interaction: user - send_message
+2025-08-13 01:57:53 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 01:57:53 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'hello' with top_k=5, threshold=0.7
+2025-08-13 01:57:55 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 5
+2025-08-13 01:57:55 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 01:57:55 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.468s
+2025-08-13 01:57:55 | INFO     | utils.logger:log_rag_query:139 | RAG query: hello... returned 0 results in 1470.31ms
+2025-08-13 01:57:55 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 01:57:57 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 62 characters
+2025-08-13 01:57:57 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 01:57:57 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:57:57 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:57:57 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 3.194s
+2025-08-13 01:57:57 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (3.208s)
+2025-08-13 01:57:57 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/synthesize
+2025-08-13 01:57:57 | DEBUG    | tts.elevenlabs_client:synthesize:102 | Synthesizing text: 'Hello! How can I assist you with healthcare inform...' with voice elevenlabs
+2025-08-13 01:57:57 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - '"detail"'
+2025-08-13 01:57:57 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: '"detail"'
+2025-08-13 01:57:57 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/synthesize (0.546s)
+2025-08-13 01:58:06 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 01:58:06 | INFO     | utils.logger:log_user_interaction:124 | User interaction: user - send_message
+2025-08-13 01:58:06 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 01:58:06 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'i have headache' with top_k=5, threshold=0.7
+2025-08-13 01:58:07 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 15
+2025-08-13 01:58:07 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 01:58:07 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.081s
+2025-08-13 01:58:07 | INFO     | utils.logger:log_rag_query:139 | RAG query: i have headache... returned 0 results in 1083.87ms
+2025-08-13 01:58:07 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 01:58:13 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 492 characters
+2025-08-13 01:58:13 | WARNING  | safety.healthcare_filter:_log_safety_check:349 | Content safety check failed: CRITICAL risk - Content contains 51 risk indicators
+2025-08-13 01:58:13 | WARNING  | safety.healthcare_filter:_log_safety_check:353 | High-risk content detected: I'm sorry to hear that you're not feeling well. Headaches can be caused by a variety of factors such...
+2025-08-13 01:58:13 | WARNING  | app.api.chat:send_message:172 | Unsafe AI response detected: RiskLevel.CRITICAL
+2025-08-13 01:58:13 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:13 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:13 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 6.834s
+2025-08-13 01:58:13 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (6.844s)
+2025-08-13 01:58:13 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/synthesize
+2025-08-13 01:58:13 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:13 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:13 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/synthesize (0.024s)
+2025-08-13 01:58:27 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 01:58:27 | INFO     | utils.logger:log_user_interaction:124 | User interaction: user - send_message
+2025-08-13 01:58:27 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 01:58:27 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'how can you help me?' with top_k=5, threshold=0.7
+2025-08-13 01:58:29 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 20
+2025-08-13 01:58:29 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 01:58:29 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 1.286s
+2025-08-13 01:58:29 | INFO     | utils.logger:log_rag_query:139 | RAG query: how can you help me?... returned 0 results in 1288.62ms
+2025-08-13 01:58:29 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 01:58:33 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 475 characters
+2025-08-13 01:58:33 | WARNING  | safety.healthcare_filter:_log_safety_check:349 | Content safety check failed: HIGH risk - Content contains 21 risk indicators
+2025-08-13 01:58:33 | WARNING  | safety.healthcare_filter:_log_safety_check:353 | High-risk content detected: As a healthcare information assistant, I can provide you with general information about health-relat...
+2025-08-13 01:58:33 | WARNING  | app.api.chat:send_message:172 | Unsafe AI response detected: RiskLevel.HIGH
+2025-08-13 01:58:33 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:33 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:33 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 5.265s
+2025-08-13 01:58:33 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (5.275s)
+2025-08-13 01:58:33 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/synthesize
+2025-08-13 01:58:33 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:33 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:33 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/synthesize (0.027s)
+2025-08-13 01:58:42 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 01:58:42 | INFO     | utils.logger:log_user_interaction:124 | User interaction: user - send_message
+2025-08-13 01:58:42 | DEBUG    | safety.healthcare_filter:_log_safety_check:347 | Content safety check passed: LOW risk
+2025-08-13 01:58:42 | DEBUG    | rag.rag_pipeline:query:77 | RAG query: 'How to maintain heart health?' with top_k=5, threshold=0.7
+2025-08-13 01:58:43 | DEBUG    | rag.embedding_client:embed_text:58 | Generated embedding for text of length 29
+2025-08-13 01:58:43 | WARNING  | rag.vector_store:search:186 | Vector store is empty
+2025-08-13 01:58:43 | INFO     | rag.rag_pipeline:query:108 | RAG query completed: 0 results in 0.878s
+2025-08-13 01:58:43 | INFO     | utils.logger:log_rag_query:139 | RAG query: How to maintain heart health?... returned 0 results in 880.54ms
+2025-08-13 01:58:43 | DEBUG    | llm.openai_client:generate_response:68 | Generating LLM response with 2 messages
+2025-08-13 01:58:58 | DEBUG    | llm.openai_client:generate_response:94 | LLM response generated: 1797 characters
+2025-08-13 01:58:58 | WARNING  | safety.healthcare_filter:_log_safety_check:349 | Content safety check failed: CRITICAL risk - Content contains 100 risk indicators
+2025-08-13 01:58:58 | WARNING  | safety.healthcare_filter:_log_safety_check:353 | High-risk content detected: Maintaining heart health is crucial for overall well-being. Here are some general tips that are ofte...
+2025-08-13 01:58:58 | WARNING  | app.api.chat:send_message:172 | Unsafe AI response detected: RiskLevel.CRITICAL
+2025-08-13 01:58:58 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:58 | ERROR    | memory.conversation_memory:add_message:124 | Failed to add message: 'ChatMessage' object has no attribute 'message_id'
+2025-08-13 01:58:58 | INFO     | app.api.chat:send_message:201 | Chat processing completed in 16.589s
+2025-08-13 01:58:58 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (16.605s)
+2025-08-13 01:58:58 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/synthesize
+2025-08-13 01:58:58 | ERROR    | utils.logger:log_voice_processing:161 | Voice processing: synthesis failed for mp3 audio - 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:58 | ERROR    | app.api.voice:synthesize_speech:227 | Speech synthesis failed: 400: Text too long. Max length: 500 characters
+2025-08-13 01:58:58 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/synthesize (0.024s)
+2025-08-13 01:59:18 | INFO     | app.middleware:__call__:33 | Request: GET /docs
+2025-08-13 01:59:18 | INFO     | app.middleware:__call__:47 | Response: GET /docs (0.006s)
+2025-08-13 01:59:18 | INFO     | app.middleware:__call__:33 | Request: GET /openapi.json
+2025-08-13 01:59:18 | INFO     | app.middleware:__call__:47 | Response: GET /openapi.json (0.037s)
+2025-08-13 02:09:51 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 02:09:51 | INFO     | app.middleware:__call__:47 | Response: GET / (0.033s)
+2025-08-13 02:09:51 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 02:09:51 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 02:09:51 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.015s)
+2025-08-13 02:09:51 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.021s)
+2025-08-13 02:10:40 | INFO     | app.middleware:__call__:33 | Request: GET /docs
+2025-08-13 02:10:40 | INFO     | app.middleware:__call__:47 | Response: GET /docs (0.005s)
+2025-08-13 02:10:40 | INFO     | app.middleware:__call__:33 | Request: GET /openapi.json
+2025-08-13 02:10:40 | INFO     | app.middleware:__call__:47 | Response: GET /openapi.json (0.006s)
+2025-08-13 02:38:56 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 02:38:56 | INFO     | app.middleware:__call__:47 | Response: GET / (0.008s)
+2025-08-13 02:38:56 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 02:38:56 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 02:38:56 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.013s)
+2025-08-13 02:38:56 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.015s)
+2025-08-13 02:39:15 | INFO     | app.middleware:__call__:33 | Request: POST /api/voice/transcribe
+2025-08-13 02:39:18 | WARNING  | stt.whisper_client:_get_audio_duration:208 | Failed to get audio duration: 
+2025-08-13 02:39:18 | DEBUG    | stt.whisper_client:transcribe:62 | Transcribing audio file: uploads\temp_1755034755_recording.wav (duration: 0.00s)
+2025-08-13 02:39:20 | INFO     | stt.whisper_client:transcribe:91 | Transcription completed: 44 characters in 1.817s
+2025-08-13 02:39:20 | INFO     | utils.logger:log_voice_processing:158 | Voice processing: transcription completed for wav audio (0.00s)
+2025-08-13 02:39:20 | WARNING  | app.api.voice:cleanup_temp_file:270 | Failed to cleanup temp file uploads\temp_1755034755_recording.wav: [WinError 32] The process cannot access the file because it is being used by another process: 'uploads\\temp_1755034755_recording.wav'
+2025-08-13 02:39:20 | INFO     | app.middleware:__call__:47 | Response: POST /api/voice/transcribe (4.637s)
+2025-08-13 02:39:20 | INFO     | app.middleware:__call__:33 | Request: POST /api/chat/send
+2025-08-13 02:39:20 | INFO     | app.middleware:__call__:47 | Response: POST /api/chat/send (0.009s)
+2025-08-13 02:44:25 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 02:44:25 | INFO     | app.middleware:__call__:47 | Response: GET / (0.015s)
+2025-08-13 02:44:25 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 02:44:25 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 02:44:25 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.014s)
+2025-08-13 02:44:25 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.013s)
+2025-08-13 02:44:55 | INFO     | app.middleware:__call__:33 | Request: GET /docs
+2025-08-13 02:44:55 | INFO     | app.middleware:__call__:47 | Response: GET /docs (0.008s)
+2025-08-13 02:44:55 | INFO     | app.middleware:__call__:33 | Request: GET /openapi.json
+2025-08-13 02:44:55 | INFO     | app.middleware:__call__:47 | Response: GET /openapi.json (0.011s)
+2025-08-13 02:45:19 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-13 02:45:20 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 02:45:20 | INFO     | app.middleware:__call__:47 | Response: GET / (0.113s)
+2025-08-13 02:45:20 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 02:45:20 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 02:45:20 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.012s)
+2025-08-13 02:45:20 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.013s)
+2025-08-13 02:47:58 | INFO     | main:lifespan:42 | Application startup complete
+2025-08-13 02:48:06 | INFO     | app.middleware:__call__:33 | Request: GET /
+2025-08-13 02:48:06 | INFO     | app.middleware:__call__:47 | Response: GET / (0.104s)
+2025-08-13 02:48:06 | INFO     | app.middleware:__call__:33 | Request: GET /styles.css
+2025-08-13 02:48:06 | INFO     | app.middleware:__call__:33 | Request: GET /script.js
+2025-08-13 02:48:06 | INFO     | app.middleware:__call__:47 | Response: GET /styles.css (0.026s)
+2025-08-13 02:48:06 | INFO     | app.middleware:__call__:47 | Response: GET /script.js (0.025s)

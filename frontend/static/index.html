@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Healthcare Voice AI Assistant - Get accurate, safe medical information through voice interaction">
+    <meta name="keywords" content="healthcare, AI, voice assistant, medical information, RAG, AI doctor">
+    <title>Healthcare Voice AI Assistant</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>Initializing Healthcare AI</h2>
+            <p>Loading medical knowledge base...</p>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="app" class="app-container" style="display: none;">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Healthcare Voice AI</h1>
+                        <span class="tagline">Professional Medical Assistant</span>
+                    </div>
+                </div>
+                
+                <nav class="header-nav">
+                    <button class="nav-btn" id="helpBtn" title="Help & Instructions">
+                        <i class="fas fa-question-circle"></i>
+                    </button>
+                    <button class="nav-btn" id="settingsBtn" title="Settings">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <button class="nav-btn" id="docsBtn" title="Documentation">
+                        <i class="fas fa-book-medical"></i>
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Voice Control Section -->
+            <section class="voice-section">
+                <div class="voice-container">
+                    <div class="voice-status">
+                        <div class="status-indicator" id="statusIndicator">
+                            <i class="fas fa-microphone" id="statusIcon"></i>
+                        </div>
+                        <span class="status-text" id="statusText">Ready to listen</span>
+                    </div>
+                    
+                    <div class="voice-controls">
+                        <button class="voice-btn primary" id="recordBtn" title="Start Recording">
+                            <i class="fas fa-microphone"></i>
+                            <span>Start Recording</span>
+                        </button>
+                        
+                        <button class="voice-btn secondary" id="stopBtn" title="Stop Recording" style="display: none;">
+                            <i class="fas fa-stop"></i>
+                            <span>Stop Recording</span>
+                        </button>
+                        
+                        <button class="voice-btn tertiary" id="clearBtn" title="Clear Conversation">
+                            <i class="fas fa-trash"></i>
+                            <span>Clear</span>
+                        </button>
+                    </div>
+                    
+                    <div class="recording-visualizer" id="recordingVisualizer" style="display: none;">
+                        <div class="visualizer-bars">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                        <span class="recording-text">Recording...</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chat Section -->
+            <section class="chat-section">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <h2>Medical Assistant Chat</h2>
+                        <div class="chat-controls">
+                            <button class="chat-btn" id="exportBtn" title="Export Chat">
+                                <i class="fas fa-download"></i>
+                            </button>
+                            <button class="chat-btn" id="printBtn" title="Print Chat">
+                                <i class="fas fa-print"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-messages" id="chatMessages">
+                        <!-- Welcome Message -->
+                        <div class="message assistant">
+                            <div class="message-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-content">
+                                <div class="message-header">
+                                    <span class="sender">Healthcare AI Assistant</span>
+                                    <span class="timestamp">Just now</span>
+                                </div>
+                                <div class="message-text">
+                                    <p>Hello! I'm your professional healthcare AI assistant. I can help you with:</p>
+                                    <ul>
+                                        <li>Medical information and explanations</li>
+                                        <li>Health guidelines and best practices</li>
+                                        <li>Understanding medical terms</li>
+                                        <li>General wellness advice</li>
+                                    </ul>
+                                    <p><strong>Important:</strong> I provide educational information only. Always consult healthcare professionals for medical advice.</p>
+                                    <p>Click the microphone button or type your question below to get started.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-section">
+                        <div class="input-container">
+                            <textarea 
+                                id="textInput" 
+                                class="chat-input" 
+                                placeholder="Type your medical question here..."
+                                rows="3"
+                            ></textarea>
+                            <button class="send-btn" id="sendBtn" title="Send Message">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <div class="input-hint">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Press Enter to send, Shift+Enter for new line</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <div class="actions-container">
+                    <h3>Quick Questions</h3>
+                    <div class="action-buttons">
+                        <button class="action-btn" data-question="What are the symptoms of diabetes?">
+                            <i class="fas fa-thermometer-half"></i>
+                            <span>Diabetes Symptoms</span>
+                        </button>
+                        <button class="action-btn" data-question="How to maintain heart health?">
+                            <i class="fas fa-heart"></i>
+                            <span>Heart Health</span>
+                        </button>
+                        <button class="action-btn" data-question="What is hypertension?">
+                            <i class="fas fa-stethoscope"></i>
+                            <span>Hypertension</span>
+                        </button>
+                        <button class="action-btn" data-question="Tips for better sleep">
+                            <i class="fas fa-bed"></i>
+                            <span>Sleep Tips</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Settings Panel -->
+        <div class="panel-overlay" id="settingsOverlay">
+            <div class="panel settings-panel">
+                <div class="panel-header">
+                    <h3><i class="fas fa-cog"></i> Settings</h3>
+                    <button class="close-btn" id="closeSettings">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="panel-content">
+                    <div class="setting-group">
+                        <h4>Voice Settings</h4>
+                        <div class="setting-item">
+                            <label for="voiceSelect">Voice Type:</label>
+                            <select id="voiceSelect" class="setting-input">
+                                <option value="elevenlabs">ElevenLabs (Recommended)</option>
+                                <option value="azure">Azure Neural</option>
+                                <option value="google">Google Cloud</option>
+                            </select>
+                        </div>
+                        
+                        <div class="setting-item">
+                            <label for="voiceSpeed">Speed:</label>
+                            <input type="range" id="voiceSpeed" min="0.5" max="2.0" step="0.1" value="1.0" class="setting-slider">
+                            <span class="setting-value" id="speedValue">1.0x</span>
+                        </div>
+                        
+                        <div class="setting-item">
+                            <label for="voiceVolume">Volume:</label>
+                            <input type="range" id="voiceVolume" min="0" max="1" step="0.1" value="0.8" class="setting-slider">
+                            <span class="setting-value" id="volumeValue">80%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="setting-group">
+                        <h4>Interface Settings</h4>
+                        <div class="setting-item">
+                            <label for="themeSelect">Theme:</label>
+                            <select id="themeSelect" class="setting-input">
+                                <option value="light">Light</option>
+                                <option value="dark">Dark</option>
+                                <option value="auto">Auto</option>
+                            </select>
+                        </div>
+                        
+                        <div class="setting-item">
+                            <label class="setting-checkbox">
+                                <input type="checkbox" id="autoPlayToggle" checked>
+                                <span class="checkmark"></span>
+                                Auto-play voice responses
+                            </label>
+                        </div>
+                        
+                        <div class="setting-item">
+                            <label class="setting-checkbox">
+                                <input type="checkbox" id="notificationsToggle" checked>
+                                <span class="checkmark"></span>
+                                Enable notifications
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="setting-group">
+                        <h4>Privacy & Security</h4>
+                        <div class="setting-item">
+                            <label class="setting-checkbox">
+                                <input type="checkbox" id="saveHistoryToggle" checked>
+                                <span class="checkmark"></span>
+                                Save conversation history
+                            </label>
+                        </div>
+                        
+                        <div class="setting-item">
+                            <label class="setting-checkbox">
+                                <input type="checkbox" id="analyticsToggle">
+                                <span class="checkmark"></span>
+                                Allow usage analytics
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="panel-footer">
+                    <button class="btn btn-secondary" id="resetSettings">Reset to Defaults</button>
+                    <button class="btn btn-primary" id="saveSettings">Save Settings</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Panel -->
+        <div class="panel-overlay" id="helpOverlay">
+            <div class="panel help-panel">
+                <div class="panel-header">
+                    <h3><i class="fas fa-question-circle"></i> Help & Instructions</h3>
+                    <button class="close-btn" id="closeHelp">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="panel-content">
+                    <div class="help-section">
+                        <h4><i class="fas fa-microphone"></i> Voice Commands</h4>
+                        <ul>
+                            <li><strong>Click the microphone button</strong> to start recording</li>
+                            <li><strong>Speak clearly</strong> about your medical question</li>
+                            <li><strong>Click stop</strong> when you're done speaking</li>
+                            <li><strong>Wait for processing</strong> and AI response</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="help-section">
+                        <h4><i class="fas fa-keyboard"></i> Text Input</h4>
+                        <ul>
+                            <li><strong>Type your question</strong> in the text area</li>
+                            <li><strong>Press Enter</strong> to send</li>
+                            <li><strong>Shift+Enter</strong> for new lines</li>
+                            <li><strong>Use quick action buttons</strong> for common questions</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="help-section">
+                        <h4><i class="fas fa-shield-alt"></i> Safety & Disclaimers</h4>
+                        <div class="disclaimer-box">
+                            <p><strong>Important:</strong> This AI assistant provides educational information only and is not a substitute for professional medical advice.</p>
+                            <ul>
+                                <li>Always consult healthcare professionals for medical decisions</li>
+                                <li>Do not use for emergency medical situations</li>
+                                <li>Information is for educational purposes only</li>
+                                <li>Your privacy and data security are protected</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="help-section">
+                        <h4><i class="fas fa-cog"></i> Troubleshooting</h4>
+                        <ul>
+                            <li><strong>Microphone not working?</strong> Check browser permissions</li>
+                            <li><strong>No audio response?</strong> Check volume and auto-play settings</li>
+                            <li><strong>Slow responses?</strong> Check your internet connection</li>
+                            <li><strong>Need help?</strong> Contact support through settings</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="panel-footer">
+                    <button class="btn btn-primary" id="closeHelpBtn">Got It!</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Medical Disclaimer -->
+        <div class="disclaimer-banner">
+            <div class="disclaimer-content">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span><strong>Medical Disclaimer:</strong> This AI provides educational information only. Always consult healthcare professionals for medical advice.</span>
+                <button class="disclaimer-close" id="closeDisclaimer">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Audio Player (Hidden) -->
+        <audio id="audioPlayer" style="display: none;"></audio>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
