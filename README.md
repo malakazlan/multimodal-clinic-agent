@@ -1,3 +1,7 @@
+
+<img width="1128" height="877" alt="main" src="https://github.com/user-attachments/assets/6c7cbae4-ae74-4fb3-a045-044077b857dc" />
+
+
 # Healthcare Voice AI Assistant
 
 > **Enterprise-Grade RAG System with Advanced Voice Capabilities**
@@ -807,3 +811,4 @@ This system processes voice and text data. Ensure compliance with local privacy 
 **Built with  for the healthcare community**
 
 *For questions, support, or contributions, please visit our [GitHub repository](https://github.com/your-org/voice-RAG-assistant).*
+
